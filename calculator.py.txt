@@ -1,0 +1,12 @@
+a = float(input("Введите первое число: "))
+b = float(input("Введите второе число: "))
+print("Выберите действие:")
+print("1 - Сложение")
+print("2 - Вычитание")
+choice = input("Ваш выбор: ")
+if choice == "1":
+    print("Результат:", a + b)
+elif choice == "2":
+    print("Результат:", a - b)
+else:
+    print("Неверный выбор")
